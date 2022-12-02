@@ -19,7 +19,17 @@ console.log(unique);
   useEffect(() => {
     checkarrData();
   }, []);
-
+  // make three reducers (one for cake and one for ice-cream and one for chocolates  ) and combine these reducers in one reducer and make store of it.
+  // take order from user and subtract the order from the available quantity. 
+  // eg. user wants to buy 4 chocolates and 2 cakes then if the product is in stock then subtract the quantity .
+  // Note: use proper validation for input and Buying.
+  // Add more than 5 reducers in combineReducers
+  // One each for:
+  // addition 
+  // subtraction
+  // division
+  // multiplication
+  // clear answer
   return (
     <div id="outerProduct">
       <h1>Products</h1>
